@@ -9,7 +9,7 @@ public class Conn {
           //connector used
           //Class.forName(com.mysql.cj.jdbc.Driver);
           //create connection-->by default local host 3306-->so put /
-          c=DriverManager.getConnection("jdbc:mysql:///atmsimulatorsystem","root", "Harsh#2010");
+          c=DriverManager.getConnection("jdbc:mysql:///atmsimulatorsystem","root", "");
           //create statement
           s=c.createStatement();
           
